@@ -1,6 +1,6 @@
 {% set name = "validators" %}
-{% set version = "0.14.2" %}
-{% set sha256 = "b192e6bde7d617811d59f50584ed240b580375648cd032d106edeb3164099508" %}
+{% set version = "0.14.3" %}
+{% set sha256 = "6a0d9502219aee486f1ee12d8a9635e4a56f3dbcfa204b4e0de3a038ae35f34f" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -34,7 +34,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Python Data Validation for Humans'
+  summary: Python Data Validation for Humans
 
   description: |
     Python data validation for Humans.
