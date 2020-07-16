@@ -1,6 +1,6 @@
 {% set name = "validators" %}
-{% set version = "0.15.0" %}
-{% set sha256 = "31e8bb01b48b48940a021b8a9576b840f98fa06b91762ef921d02cb96d38727a" %}
+{% set version = "0.16.0" %}
+{% set sha256 = "992abaff76f0fb4040e29c57222b0786ca8fab2a779104dd855e880039602b15" %}
 
 package:
   name: {{ name|lower }}
