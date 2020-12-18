@@ -5,9 +5,13 @@ Home: https://github.com/kvesteri/validators
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/validators-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python Data Validation for Humans
+
+Development: https://github.com/kvesteri/validators
+
+Documentation: https://validators.readthedocs.io/
 
 Python data validation for Humans.
 
